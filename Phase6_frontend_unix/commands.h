@@ -27,6 +27,7 @@ int deposit( account acct );
 int create( account acct );
 int ac_delete( account acct );	//delete is a key word in C++
 int disable( account acct );
+int enable(account acct);
 int changeplan( account acct );
 int logout( bool b_loggedin );
 

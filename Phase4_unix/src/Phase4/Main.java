@@ -7,7 +7,6 @@ import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.nio.file.NotDirectoryException;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 
 /**
@@ -16,9 +15,9 @@ import java.util.ArrayList;
  * Description: This file is used as the main processing program for all of the back-end. 
  * 				It implements all the functions and objects created for the purpose of the 
  * 				back-end. This program will be used to maintain the back-end. The program takes
- * 				in one argument (args[0]) which is the name of the old master accounts file
- * 				(i.e., the master accounts file before transactions are applied) All other 
- * 				files, including the merged transaction file, and the current accounts file
+ * 				in two arguments (args[0] and args[1]) which is the name of the old master accounts file
+ * 				(i.e., the master accounts file before transactions are applied) and the master 
+ * 				transaction file, respectively. All other files, including tthe current accounts file
  * 				are predefined in the program code. The output master transaction file will
  * 				overwrite the old master transaction file. That is to say, args[0] specifies
  * 				the name of the old master transaction file, and the name of the new one as 
@@ -33,15 +32,14 @@ public class Main {
 	
 	public static void main(String[] args) throws FileNotFoundException, NotDirectoryException {
 		
-		//----------------DELETES PREVIOUS MERGED TRANSACTION FILE--------
-		Path mergedPath = Paths.get("./merged_master_transactions.txt");
-		Utilities.tryDelete(mergedPath);
-		//----------------------------------------------------------------
+//		//----------------DELETES PREVIOUS MERGED TRANSACTION FILE--------
+//		Path mergedPath = Paths.get("./merged_master_transactions.txt");
+//		Utilities.tryDelete(mergedPath);
+//		//----------------------------------------------------------------
 		
 		//----------------DECLARE ALL FILES AND WRITERS-------------------
-		File[] arrayOfTransactionFiles = Utilities.getIndividualTransactionFiles("./transaction files/");
-																			  // "./transaction files/" is default
-		File fMasterTransactionFile = Utilities.mergeFiles(arrayOfTransactionFiles, "merged_master_transactions.txt");
+
+		File fMasterTransactionFile = new File(args[1]);
 		File fOldMasterAccountsFile = new File(args[0]);
 		File fNewMasterAccountsFile = new File("new_master_accounts.txt");
 		File fNewCurrentAccounstFile = new File("current_accounts.txt");
