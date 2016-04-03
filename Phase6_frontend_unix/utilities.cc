@@ -8,7 +8,6 @@
 #include "utilities.h"
 
 using namespace std;
-int trans_count = 0;
 /*
   getAccountByName is a function that takes an account holder name, and a filename as an argument.
   This function is used to retrieve information from an account by the name of the account holder.
@@ -183,13 +182,27 @@ int updateStandardAccount( account acct, string s_filename ) {
 }
 
 int writeTransactionFile( string transaction ) {
-  cout << "Transaction File written ( stub )" << endl;
-  string file_name = "trans" + to_string(trans_count) + ".txt";
+
+  int t_count;
+  //file will be created with an initial value of 0 every day,
+  // if not set, program will create the file, and place a garbage initial value. It will still work
+  // but number will be whatever is stored in memory.
+  string highest_count_name = "num_transactions_thusfar.txt";
+  ifstream trans_count;
+  trans_count.open(highest_count_name);
+  trans_count >> t_count;
+  trans_count.close();
+  string file_name = "trans" + to_string(t_count) + ".txt";
+
   ofstream trans_file;
+  ofstream highest_count;
+
   trans_file.open(file_name);
+  highest_count.open(highest_count_name);
   trans_file << transaction << endl;
+  highest_count << t_count + 1 << endl;
   trans_file.close();
-  trans_count++;
+  cout << "Transaction File written ( stub )" << endl;
   return 0;
 }
 
