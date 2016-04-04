@@ -1,0 +1,7 @@
+login
+admin
+disable
+chuck norris
+12348
+logout
+quit

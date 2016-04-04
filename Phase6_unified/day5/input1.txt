@@ -1,0 +1,8 @@
+login
+standard
+dominick mancini
+withdrawal
+12345
+20
+logout
+quit

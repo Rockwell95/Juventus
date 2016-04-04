@@ -53,6 +53,9 @@ int menu(account acct) {
     /*!*/else if ( s_command.compare( "disable" ) == 0 ) {
       disable( acct );
     }
+    /*!*/else if( s_command.compare( "enable" ) == 0 ) {
+    	enable( acct );
+    }
     /*!*/else if ( s_command.compare( "changeplan" ) == 0 ) {
       changeplan( acct );
     }
@@ -541,6 +544,7 @@ int deposit( account acct ) {
 
   ac_newaccount.c_status = 'A';
   ac_newaccount.n_level = 0;
+  ac_newaccount.s_number = "00000";
   writeStandardAccount( ac_newaccount );
   write_to_transaction(&t, ac_newaccount, "05", ac_newaccount.d_balance);
   string sTrans = transaction_to_string(t);

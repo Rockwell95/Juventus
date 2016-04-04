@@ -1,0 +1,7 @@
+login
+admin
+create
+mr potatohead
+0
+logout
+quit

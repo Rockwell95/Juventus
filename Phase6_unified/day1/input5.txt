@@ -1,0 +1,9 @@
+login
+standard
+janahan something
+paybill
+12347
+TV
+20
+logout
+quit
