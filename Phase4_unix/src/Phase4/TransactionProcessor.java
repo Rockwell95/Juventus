@@ -136,13 +136,13 @@ public class TransactionProcessor {
 	 */
 	public static boolean create(Transaction t, ArrayList<Account> a){
 		boolean completed = false;
-		for (int i = 0; i < a.size(); i++) {
+		/*for (int i = 0; i < a.size(); i++) {
 			if(t.getAccountNumber().equals(a.get(i).getNumber())){
 				System.err.println("ERROR: Account already exists, cannot use the same number twice."
 						+ "\nTransaction: " + t.transAsString());
 				return completed;
 			}
-		}	
+		}*/	
 		//Only executed if account number does not exist
 		System.err.println("This prototype autogenerates a new account number, and disregards the transaction's provided number."
 				+ "\nIf the frontend is changed in the future, this can be modified easily.");
