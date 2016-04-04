@@ -109,7 +109,7 @@ int withdrawal( account acct ) {
   if ( acct.n_level == ADMIN_ACCOUNT ) {
     // ----------PROMPT AND VALIDATION------
     acc_account = getUserAccount();
-
+    acct = acc_account;
     if ( acc_account.s_number.empty() )  {
       return 0;
     }
@@ -204,6 +204,7 @@ int transfer( account acct ) {
   if ( acct.n_level == ADMIN_ACCOUNT ) {  
     // ----------PROMPT AND VALIDATION------
     acc_account = getUserAccount();
+    acct = acc_account;
 
     if ( acc_account.s_number.empty() )  {
       return 0;
@@ -312,7 +313,7 @@ int paybill( account acct ) {
   if ( acct.n_level == ADMIN_ACCOUNT ) {
     // ----------PROMPT AND VALIDATION------
     acc_account = getUserAccount();
-
+    acct = acc_account;
     if ( acc_account.s_number.empty() )  {
       return 0;
     }
@@ -405,7 +406,7 @@ int deposit( account acct ) {
   if ( acct.n_level == ADMIN_ACCOUNT ) {
     // ---PROMPT AND VALIDATION-----------
     acc_account = getUserAccount();
-
+    acct = acc_account;
     if ( acc_account.s_number.empty() )  {
       return 0;
     }
