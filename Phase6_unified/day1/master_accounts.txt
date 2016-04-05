@@ -1,7 +1,6 @@
-12345 dominick mancini     A     9.45 0012 S
-12346 scott mclean         D      470 0122 N
-12347 janahan something    A     99.7 8891 N
-12348 chuck norris         A        0 0000 N
-12349 optimus prime        A        0 0000 N
-12350 janahan nirmalan     A      600 0002 N
-12351 vector prime         A  1499.46 0009 N
+12345 dominick mancini     A 00150.00 0005 S
+12346 scott mclean         D 00470.00 0122 N
+12347 janahan something    A 00100.00 8891 N
+12348 chuck norris         A 00000.00 0000 N
+12349 optimus prime        A 00000.00 0000 N
+12350 janahan nirmalan     A 00600.00 0002 N
