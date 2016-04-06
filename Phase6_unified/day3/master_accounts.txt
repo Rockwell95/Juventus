@@ -1,6 +1,6 @@
-12345 dominick mancini     A    569.8 0009 S
+12345 dominick mancini     A   549.85 0008 S
 12346 scott mclean         D      470 0122 N
-12347 janahan something    A     79.9 8892 N
+12347 janahan something    A     59.8 8893 N
 12348 chuck norris         A    199.9 0001 N
 12349 optimus prime        A    179.8 0002 S
 12350 janahan nirmalan     A      600 0002 S

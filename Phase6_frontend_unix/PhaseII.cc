@@ -110,6 +110,10 @@ int main( void ) {
         cout << "Name not found, terminating." << endl;
         exit( 0 ); 
       }
+      else if( act_stdaccount.c_status != 'A'){
+        	  cout << "Account is disabled, cannot complete transaction" << endl;
+        	  exit( 0 );
+        }
       cout << "Welcome, " + act_stdaccount.s_holdername + "." << endl;
       menu( act_stdaccount );
     }

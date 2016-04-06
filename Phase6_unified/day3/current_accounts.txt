@@ -1,6 +1,6 @@
-12345 dominick mancini     A    569.8
+12345 dominick mancini     A   549.85
 12346 scott mclean         D      470
-12347 janahan something    A     79.9
+12347 janahan something    A     59.8
 12348 chuck norris         A    199.9
 12349 optimus prime        A    179.8
 12350 janahan nirmalan     A      600

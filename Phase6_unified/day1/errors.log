@@ -1,9 +1,7 @@
 SUCCESS: Withdrawal Transaction completed successfully.
-ERROR Account with number 12346. Account is Disabled
-ERROR: Transaction "01 scott mclean         12346 20.00000 MM" has failed.
-SUCCESS: Deposit Transaction completed successfully.
 This prototype autogenerates a new account number, and disregards the transaction's provided number.
 If the frontend is changed in the future, this can be modified easily.
 SUCCESS: Account Created Successfully
+SUCCESS: Paybill Transaction completed successfully.
 SUCCESS: Paybill Transaction completed successfully.
 ERROR Account with number 00000. Account is Disabled

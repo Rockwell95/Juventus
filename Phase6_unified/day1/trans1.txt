@@ -1,2 +1,1 @@
-01 scott mclean         12346 20.00000 MM
-04 dominick mancini     12345 20.00000 MM
+05 mr potatohead        00000 0.000000 MM

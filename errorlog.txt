@@ -1,0 +1,1 @@
+Frontend didn't check if account was disabled, backend did. Frontend had this functionality added.
