@@ -1,0 +1,8 @@
+12345 dominick mancini     A   549.85 0008 S
+12346 scott mclean         D      470 0122 N
+12347 janahan something    A     79.9 8892 N
+12348 chuck norris         A        0 0000 N
+12349 optimus prime        A    199.9 0001 N
+12350 janahan nirmalan     A      600 0002 S
+12351 mr potatohead        A        0 0000 N
+12352 vector prime         A        0 0000 N

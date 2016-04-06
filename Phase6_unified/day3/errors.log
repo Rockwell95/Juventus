@@ -1,0 +1,7 @@
+SUCCESS: Deposit Transaction completed successfully.
+This prototype autogenerates a new account number, and disregards the transaction's provided number.
+If the frontend is changed in the future, this can be modified easily.
+SUCCESS: Account Created Successfully
+SUCCESS: Withdrawal Transaction completed successfully.
+SUCCESS: Deposit Transaction completed successfully.
+ERROR Account with number 00000. Account is Disabled
