@@ -1,6 +1,6 @@
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 |  File: phaseii.cc                                                                                                 |
-|  Authors: Dominick Mancini, Scott Mclean, Janahan Nirmalan                                                        |
+|  Authors: Dominick Mancini, Mohamad Vedut, Alexander Wheadon                                                        |
 |                                                                                                                   |
 |  Description: This program emulates a the front-end of a banking system.                                          |
 |               A User will be asked to login upon execution of this program                                        |

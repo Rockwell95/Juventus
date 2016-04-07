@@ -24,7 +24,7 @@ import java.util.ArrayList;
  * 				well.
  * 				
  * 
- * @author Dominick Mancini, Scott McLean, Janahan Nirmalan
+ * @author Dominick Mancini, Mohamad Vedut, Alexander Wheadon
  * @version 1.0.0
  *
  */
