@@ -1,1 +1,3 @@
-Frontend didn't check if account was disabled, backend did. Frontend had this functionality added.
+>Frontend didn't check if account was disabled, backend did. Frontend had this functionality added.
+>Frontend did not write any transactions for file, or even any transaction structs for that matter. As such, the frontend had to have this functionality added to the program.
+>Backend merged files itself, this was changed so that the program simply received a merged file as an argument instead of creating it.
