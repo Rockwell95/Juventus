@@ -22,7 +22,7 @@ cat trans*.txt > transConcat.txt
 #back end
 java -cp $backdir $backrun $masterAccount $masterTransaction
 #transfer between days
-if [ "$nextday" != "day0" ]; then	
+if [ "$nextday" != "day0" ]; then
 	cp transConcat.txt ../$nextday/
 	cp current_accounts.txt ../$nextday/
 	cp master_accounts.txt ../$nextday/
